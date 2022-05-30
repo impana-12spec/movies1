@@ -1,0 +1,609 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'poppins',sans-serif;
+}
+
+
+/* for authentication css */
+
+.form-wrapper{
+ 
+  margin-top: 5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 0 solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 20px;
+ 
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'poppins',sans-serif;
+}
+
+/* for authentication css */
+
+.form-wrapper{
+ 
+  margin-top: 5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 0 solid #dee2e6;
+  border-radius: 0.25rem;
+  padding: 20px;
+ 
+}
+
+.login-form {
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  position: absolute;
+    width: 24px;
+    height: 24px;
+     right: 100px !important; 
+    top: 8px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  position: fixed;
+    right: inherit;
+    z-index: 1100;
+    width: 201px;
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  width: 200px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  width: auto !important;
+}
+.home-sliders {
+ 
+  background-repeat: no-repeat !important;
+  background-position: center center;
+  background-size: cover;
+  width: 25%;
+  height:500px;
+
+ 
+}
+
+.owl-theme .owl-nav {
+  margin-top: -494px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: -0.625rem 16.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  background-color: #000;
+  background-clip: padding-box;
+  /* border: 1px solid #ced4da; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  border-color:black;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.login-form {
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #222;
+  color:white
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+
+
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  position: absolute;
+    width: 24px;
+    height: 24px;
+     right: 100px !important; 
+    top: 8px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  position: fixed;
+    right: inherit;
+    z-index: 1100;
+    width: 201px;
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  width: 200px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  width: auto !important;
+}
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+
+
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 0.875rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-3);
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+      font-size: 3rem;
+  }
+  h2 {
+      font-size: 2.5rem;
+  }
+  h3 {
+      font-size: 1.75rem;
+  }
+  h4 {
+      font-size: 1rem;
+  }
+  body {
+      font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+      line-height: 1;
+  }
+}
+
+
+/*  global classes */
+.home{
+background-color: rgb(5, 0, 8);
+margin:1px;
+}
+
+/* section */
+
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+      width: 95vw;
+  }
+}
+
+
+/*----------------navbar------------*/
+
+.navbar {
+  width: 100wh;
+  height: 80px;
+  padding: 0 30px;
+  box-shadow: var(--dark-shadow);
+  background-color:rgb(36, 12, 53);
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: 800;
+  color: white;
+}
+
+.nav-center {
+  padding: 0 30px 0 50px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  padding: 0 10px;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+
+/*----------------loading--------------*/
+
+.loading {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  border-top-color: var(--clr-primary-5);
+  animation: spinner 0.6s linear infinite;
+}
+
+
+/*------------------movei list------------------*/
+
+.movie-list {
+  width: 90vw;
+  max-width: var(--max-width);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+}
+
+
+/*-----------------movie---------------*/
+
+.movie {
+  width: 20%;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.movie img {
+  width: 100%;
+  height: 400px;
+  display: block;
+  object-fit: cover;
+}
+
+.movie-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  transform: translateY(100%);
+  transition: var(--transition);
+}
+
+.movie-info h4 {
+  color: var(--clr-white);
+  margin-bottom: 0.25rem;
+}
+
+.movie-info p {
+  margin-bottom: 0;
+  color: var(--clr-white);
+}
+
+.movie:hover .movie-info {
+  transform: translateY(0);
+}
+
+@media screen and (min-width: 576px) {
+  .movies {
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+}
+
+
+/*-------------------------single movie-------------------*/
+
+.single-movie {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 3rem auto;
+  
+  display: grid;
+  gap: 2rem;
+ color:white;
+  background-color: rgb(8, 8, 8);
+}
+
+.single-movie img {
+  width: 100%;
+  height:400px;
+  display: block;
+  border-radius:1050px;
+}
+*, ::after, ::before {
+  margin: 0;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+.single-movie p {
+  max-width: 35em;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  line-height: 1.8;
+  color:#ccc;
+}
+
+.btn {
+  text-transform: capitalize;
+  padding: 0.25rem 0.5rem;
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+  border-radius: var(--radius);
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-left: 90px;
+  letter-spacing: var(--spacing);
+}
+
+@media screen and (min-width: 992px) {
+  .single-movie {
+      grid-template-columns: 1fr 2fr;
+  }
+}
+
+.page-error {
+  text-align: center;
+  padding: 2rem;
+}
+
+
+/*-------------search------------------*/
+
+.search {
+  margin: -8px auto;
+}
+
+.search-form {
+  width: 90wh;
+  padding: 20px;
+  margin: 10px;
+}
+
+.search-form input {
+  width: 400px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pagination{
+  display:flex;
+  margin:10px 30px;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  background-color: rgb(36, 12, 53);
+
+}
+
+.page{
+  padding:20px;
+
+}
+
+.page.disabled{
+  cursor:not-allowed;
+  color:grey;
+}
+
+.current{
+  padding:10px 20px;
+  border-radius: 50px;
+  border: 5px solid orange;
+  font-size:20px;
+  font-weight: 600;
+}
+
