@@ -1,4 +1,5 @@
 import React from 'react'
+
 import MovieList from '../components/MovieList'
 import SearchForm from './SearchForm'
 import OwlCarousel from 'react-owl-carousel';
@@ -50,13 +51,11 @@ const Home=()=> {
                     </div>
                     <div style={{ backgroundImage: "url(" + "images/RR.webp" + ")",}} className='home-sliders'  > 
                     <div className="container pt-2">
-                  
-                    </div>
+                      </div>
                     </div>
                     <div style={{ backgroundImage: "url(" + "images/1917.jpg" + ")",}} className='home-sliders'  > 
                     <div className="container pt-2">
-                  
-                    </div>
+                  </div>
                     </div>
                     </OwlCarousel>
                     </div>

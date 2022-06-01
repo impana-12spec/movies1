@@ -138,7 +138,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .owl-theme .owl-nav {
-  margin-top: -494px;
+  margin-top: -467px!important;
   text-align: center;
   -webkit-tap-highlight-color: transparent;
 }
